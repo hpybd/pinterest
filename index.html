@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reach Out to Me</title>
+  <meta name="description" content="A nostalgic scrapbook-style website of unsent feelings, original romanised Urdu poems, and a final plea: reach out to me." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Libre+Baskerville:wght@400;700&family=Playfair+Display:wght@600;700;800&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="dust-canvas" aria-hidden="true"></canvas>
+  <div class="grain"></div>
+
+  <header class="topbar">
+    <div class="brand">Bejhi Na Gayi Chitthiyan</div>
+    <nav class="nav">
+      <a href="#intro">Intro</a>
+      <a href="#poems">Poems</a>
+      <a href="#fragments">Fragments</a>
+      <a href="#truth">Truth</a>
+      <a href="#final">Last Page</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="intro">
+      <div class="hero-board">
+        <div class="hero-main reveal">
+          <div class="kicker">A private issue of unfinished love</div>
+          <h1 class="hero-title">
+            <span class="cut">I</span>
+            <span class="cut">still</span>
+            <span class="cut">love</span><br>
+            <span class="cut">you.</span>
+            <span class="cut">I</span>
+            <span class="cut">am</span><br>
+            <span class="cut">just</span>
+            <span class="cut">tired</span>
+            <span class="cut">of</span><br>
+            <span class="cut">carrying</span>
+            <span class="cut">it</span>
+            <span class="cut">alone.</span>
+          </h1>
+
+          <p class="hero-text-block">
+            This is a quiet scrapbook for all the words that never made it where they were supposed to go.
+            It is not anger. It is not performance. It is love, memory, exhaustion, and one stubborn hope
+            that maybe silence does not have to be the ending.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#truth">Read the truth</a>
+            <a class="btn" href="#poems">Open the notebook</a>
+          </div>
+        </div>
+
+        <div class="hero-side reveal">
+          <div class="tape one"></div>
+          <div class="tape two"></div>
+
+          <div class="polaroid"></div>
+
+          <div class="paper-piece">
+            <h3>Editor's note</h3>
+            <p>
+              Some people do not leave cleanly. They remain in familiar roads, old songs,
+              tired evenings, and all the little corners where memory is too comfortable.
+              I kept carrying all of it because it felt sacred. Now it mostly feels heavy.
+            </p>
+          </div>
+
+          <div class="note">
+            “mohabbat ab bhi hai…<br>
+            bas ab khamoshi ka bojh<br>
+            akela nahin uthta.”
+          </div>
+
+          <div class="stamp">Private Archive · Vol. 01</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="poems">
+      <div class="section-header">
+        <div class="section-tag">Original cuttings</div>
+        <h2 class="section-title">Romanised Urdu Poems</h2>
+        <p class="section-subtitle">
+          Original verses written for this page. Tender, aching, and pointed in the right places.
+          No borrowed poetry. No legal nonsense. Just the wound in its own handwriting.
+        </p>
+      </div>
+
+      <div class="grid-poems">
+        <article class="poem-card">
+          <div class="poem-number">Poem 01</div>
+          <h3 class="poem-title">Ruk Gaya Waqt</h3>
+          <div class="poem-lines">tumhare baad bhi
+shehar wahi raha
+
+raaste bhi
+shaam bhi
+baarish bhi
+
+bas ek cheez badli
+
+main har jagah tha
+magar kahin bhi nahin</div>
+          <div class="poem-foot">For the days that moved on without asking permission.</div>
+        </article>
+
+        <article class="poem-card">
+          <div class="poem-number">Poem 02</div>
+          <h3 class="poem-title">Mohabbat Ab Bhi Hai</h3>
+          <div class="poem-lines">mohabbat ab bhi hai
+yeh baat jhoot nahi
+
+bas thak gaya hoon
+har yaad ko sambhalte sambhalte
+
+tum tak awaaz le jaane ka hausla
+shayad ab bhi hai
+
+magar har baar
+dil ko akela bhejna
+ab mumkin nahin</div>
+          <div class="poem-foot">Love stayed. The shoulders did not stay as strong.</div>
+        </article>
+
+        <article class="poem-card">
+          <div class="poem-number">Poem 03</div>
+          <h3 class="poem-title">Purani Roshni</h3>
+          <div class="poem-lines">kabhi kabhi
+koi lamha achanak se chamak uthta hai
+
+jaise tumne
+andar kahin
+abhi haath rakha ho
+
+phir samajh aata hai
+
+woh tum nahi
+yaad ki aadat hoti hai</div>
+          <div class="poem-foot">Memory has filthy good timing.</div>
+        </article>
+
+        <article class="poem-card">
+          <div class="poem-number">Poem 04</div>
+          <h3 class="poem-title">Bojh</h3>
+          <div class="poem-lines">ek waqt tha
+tumhara naam
+dua lagta tha
+
+ab wahi naam
+chup chaap sa
+seene mein pada rehta hai
+
+na dard poora banta hai
+na sukoon
+
+bas ek bojh
+jo uthaya bhi maine
+aur chupaya bhi maine</div>
+          <div class="poem-foot">Sacred things can still become heavy.</div>
+        </article>
+
+        <article class="poem-card">
+          <div class="poem-number">Poem 05</div>
+          <h3 class="poem-title">Aakhri Sach</h3>
+          <div class="poem-lines">tumhein bhoolna
+mera maqsad kabhi tha hi nahi
+
+main to bas
+itna chahta tha
+ke yaad tumhari rahe
+
+magar zindagi meri bhi rahe
+
+shayad mohabbat ka
+sabse sakht roop yahi hai</div>
+          <div class="poem-foot">To love and still try not to disappear.</div>
+        </article>
+
+        <article class="poem-card highlight-card">
+          <div class="poem-number">Poem 06</div>
+          <h3 class="poem-title">Awaaz Do</h3>
+          <div class="poem-lines">agar ab bhi
+mere naam ke gird
+thoda sa dard rehta hai
+
+to khuda ke liye
+khamosh mat rehna
+
+main thak gaya hoon
+har raat yeh soch kar
+ke tum bhi yaad karti ho
+magar kehna nahi chahti
+
+agar kuch baaqi hai
+reach out to me,
+god dammit</div>
+          <div class="poem-foot">Yes, the last line hits harder because it should.</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="fragments">
+      <div class="section-header">
+        <div class="section-tag">Loose pages</div>
+        <h2 class="section-title">Memory Fragments</h2>
+        <p class="section-subtitle">
+          Half-sentences, private notes, things left in margins because they were too true to say plainly.
+        </p>
+      </div>
+
+      <div class="fragments">
+        <div class="fragment"><span class="pin"></span><p>I still remember how ordinary days felt softer when you were in them.</p></div>
+        <div class="fragment"><span class="pin"></span><p>Some people do not become memories. They become weather.</p></div>
+        <div class="fragment"><span class="pin"></span><p>You were never easy to forget because you were never small to begin with.</p></div>
+        <div class="fragment"><span class="pin"></span><p>I stopped talking about it because repetition gets humiliating after a point.</p></div>
+        <div class="fragment"><span class="pin"></span><p>There is a special kind of loneliness in carrying two people's silence by yourself.</p></div>
+        <div class="fragment"><span class="pin"></span><p>I do not miss the past exactly. I miss the version of me that was not this tired.</p></div>
+        <div class="fragment"><span class="pin"></span><p>Some absences are quiet in public and unbearably loud in private.</p></div>
+        <div class="fragment"><span class="pin"></span><p>If love survived this long, then perhaps what faded was only my strength to keep pretending.</p></div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="truth">
+      <div class="section-header">
+        <div class="section-tag">Marked personal</div>
+        <h2 class="section-title">The Truth</h2>
+        <p class="section-subtitle">
+          No metaphor. No elegance. Just the sentence that should have been said plainly.
+        </p>
+      </div>
+
+      <div class="honest-page">
+        <p class="big-note">
+          I still love you. I still miss you. But I am tired of being the only one carrying this
+          whole graveyard of memories, questions, and unfinished conversations.
+        </p>
+        <p class="small-note">
+          This was never about loving you less. It was about realising that love, when carried alone for too long,
+          starts becoming weight instead of warmth. I kept preserving what we were as though it were sacred, and maybe it was.
+          But even sacred things can wear a person down. So here it is, as directly as it deserves to be said:
+          if there is anything left in your heart at all, reach out to me. God dammit.
+        </p>
+        <div class="signature">— the one still waiting, but no longer pretending it is easy</div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="final">
+      <div class="section-header">
+        <div class="section-tag">Final spread</div>
+        <h2 class="section-title">Last Page</h2>
+        <p class="section-subtitle">
+          Not closure. A final invitation. Those are different things.
+        </p>
+      </div>
+
+      <div class="closing">
+        <div class="closing-card">
+          <h3>What remains</h3>
+          <p>
+            Your absence is no longer dramatic. It is quieter than that now. It lives in the corner of old evenings,
+            in songs I should have stopped replaying, in the pause after laughter, and in all the little places where
+            memory refuses to behave. I do not think the feeling left. I think it simply learned how to sit still.
+          </p>
+        </div>
+
+        <div class="closing-card final-callout">
+          <h3>What I am asking</h3>
+          <p>
+            If this meant anything to you, if some part of you still turns back toward what we were,
+            then stop letting silence do all the talking. Reach out to me. God dammit. Not because the past can be repeated,
+            but because it deserves at least one honest answer from both sides.
+          </p>
+          <a href="mailto:hritabhash.research@gmail.com?subject=I%20am%20reaching%20out" class="btn callout-btn">Write back</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="line"></div>
+    <p>Bejhi Na Gayi Chitthiyan · Vol. 01 · An archive of love, absence, and tired hands.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
